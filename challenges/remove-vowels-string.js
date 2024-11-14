@@ -4,10 +4,10 @@
  * @returns {string} - The string without vowels
  */
 function removeVowels(input) {
-  const str = input.replace(/[aeiouAEIOU]/g, '');
-  return str;
+  const str = input.replace(/[aeiouAEIOU]/g, '')
+  return str
 }
 
 // Example usage:
-let result = removeVowels("Hello, World!");
-console.log(result); // "Hll, Wrld!"
+const result = removeVowels('Hello, World!')
+console.log(result) // "Hll, Wrld!"

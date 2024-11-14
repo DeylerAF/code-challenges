@@ -16,10 +16,13 @@
 } */
 
 function capitalizeWords(str) {
-  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+  return str
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ')
 }
 
 // Example usage:
-const inputString = "hello world! this is a test.";
-const result = capitalizeWords(inputString);
-console.log(result); // Output: "Hello World! This Is A Test."
+const inputString = 'hello world! this is a test.'
+const result = capitalizeWords(inputString)
+console.log(result) // Output: "Hello World! This Is A Test."

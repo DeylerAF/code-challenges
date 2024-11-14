@@ -21,11 +21,11 @@
 }; */
 
 const isPalindrome = str => {
-  const processedStr = str.replace(/\s/g, '').toLowerCase();
-  const palindrome = processedStr.split('').reverse().join('');
-  return processedStr === palindrome;
-};
+  const processedStr = str.replace(/\s/g, '').toLowerCase()
+  const palindrome = processedStr.split('').reverse().join('')
+  return processedStr === palindrome
+}
 
 // Example usage:
-const input = isPalindrome("Do geese see God");
-console.log(str); // true
+const input = isPalindrome('Do geese see God')
+console.log(input) // true

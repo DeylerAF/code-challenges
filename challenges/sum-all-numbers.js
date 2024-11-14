@@ -17,10 +17,10 @@
 } */
 
 function sumArray(numbers) {
-  return numbers.reduce((sum, num) => sum + num, 0);
+  return numbers.reduce((sum, num) => sum + num, 0)
 }
 
 // Example usage:
-const array = [1, 2, 3, 4, 5];
-const totalSum = sumArray(array);
-console.log(totalSum); // Output: 15
+const array = [1, 2, 3, 4, 5]
+const totalSum = sumArray(array)
+console.log(totalSum) // Output: 15

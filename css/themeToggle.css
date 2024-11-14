@@ -1,0 +1,19 @@
+/* Light theme */
+body.light-mode {
+  --background-color: white;
+  --text-color: black;
+}
+
+/* Dark theme */
+body.dark-mode {
+  --background-color: #292929;
+  --text-color: #f2f2f2;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+h1 {
+  color: var(--text-color);
+}
