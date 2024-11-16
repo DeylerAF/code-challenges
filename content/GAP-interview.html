@@ -1,0 +1,32 @@
+<!-- *** Excercise 3 
+1- Add any background color to the "Surprise!" paragraph 
+2-Hide "Surprise!" the paragraph 
+2-Show the "Surprise" paragraph when you hover the "Move the cursor over me!" paragraph*** -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Title</title>
+  </head>
+
+  <style>
+    .cursor:hover + .surprise {
+      display: block;
+    }
+    .surprise {
+      background-color: green;
+      display: none;
+    }
+  </style>
+
+  <body>
+    <h1>Hello!</h1>
+
+    <div>
+      <p class="cursor">Move the cursor over me!</p>
+      <p class="surprise">Surprise!!</p>
+    </div>
+  </body>
+</html>

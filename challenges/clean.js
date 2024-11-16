@@ -4,7 +4,7 @@
  * @returns {Array} - The cleaned array
  */
 
-const clean = arr =>
+const clean = (arr) =>
   arr.reduce((acc, el) => {
     if (el) {
       acc.push(el)

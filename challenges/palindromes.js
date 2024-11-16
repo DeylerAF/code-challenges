@@ -20,7 +20,7 @@
   return lowered === reversed;
 }; */
 
-const isPalindrome = str => {
+const isPalindrome = (str) => {
   const processedStr = str.replace(/\s/g, '').toLowerCase()
   const palindrome = processedStr.split('').reverse().join('')
   return processedStr === palindrome

@@ -5,7 +5,7 @@
  */
 
 // Returns the most repeated word
-const repeatedWords = str => {
+const repeatedWords = (str) => {
   const lowered = str.toLowerCase()
   const splitted = lowered.split(' ')
   const reduced = splitted.reduce((acc, el) => {

@@ -21,7 +21,7 @@ const updateTheme = () => {
   document.getElementById('theme-select').value = themePreference
 }
 
-document.getElementById('theme-select').addEventListener('change', event => {
+document.getElementById('theme-select').addEventListener('change', (event) => {
   const newTheme = event.target.value
   localStorage.setItem('theme', newTheme)
   updateTheme()

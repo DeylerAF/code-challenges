@@ -16,7 +16,7 @@
   return highest
 } */
 
-const findHighest = arr => arr.reduce((acc, el) => (acc > el ? acc : el))
+const findHighest = (arr) => arr.reduce((acc, el) => (acc > el ? acc : el))
 
 // Example usage:
 const numbers = [3, 5, 7, 1, 9, 8]
